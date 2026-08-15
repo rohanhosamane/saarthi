@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import "./App.css";
 
-const API_URL = "http://localhost:8001";
+const API_URL = "https://saarthi-backend.onrender.com";
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem("saarthi_token") || null);
